@@ -15,7 +15,7 @@ you will need to provide path and context . Alteratively use what ever credentia
 https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs
 
 With this provider it will create exaclty the same kubernetes objects as the kubernetes as the HELM chart .
-Namely : Namespace , Cluster role binding , secret and statefulset .
+(Namespace , Cluster role binding , secret and statefulset) .
 
 
 ### Input parameters required for provisioning (defined in .tfvars and mirrors the helm values.yaml file)
