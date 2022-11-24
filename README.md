@@ -18,7 +18,7 @@ With this provider it will create exaclty the same kubernetes objects as the kub
 (Namespace , Cluster role binding , secret and statefulset) .
 
 
-### Input parameters required for provisioning (defined in .tfvars and mirrors the helm values.yaml file)
+### Input parameters required for provisioning (defined in terraform.tfvars and mirrors the helm values.yaml file)
 
 Examples : 
 
