@@ -20,32 +20,34 @@ With this provider it will create exaclty the same kubernetes objects as the kub
 
 ### Input parameters required for provisioning (defined in .tfvars and mirrors the helm values.yaml file)
 
-accountId
+Examples : 
 
-delegateToken
+accountId = "xxxxxxxxxxxxxx"
 
-delegateName
+delegateToken = "xxxxxxxxxxxxxxxxxxxxxxxx"
 
-delegate_namespace
+delegateName = "helm"
 
-delegateDockerImage
+delegate_namespace = "harness-delegate-ng"
 
-managerEndpoint
+delegateDockerImage = "harness/delegate:22.11.77435"
 
-tags
+managerEndpoint = "https://app.harness.io/gratis"
 
-description
+tags = ""
 
-k8sPermissionsType
+description = ""
 
-replicas
+k8sPermissionsType = "CLUSTER_ADMIN"
 
-cpu
+replicas = "1"
 
-memory
+cpu = "0.5"
 
-initScript
+memory = "2048" 
 
-javaOpts
+initScript = ""
 
-securityContext
+javaOpts = "-Xms64M"
+
+securityContext = "runAsRoot: false"
