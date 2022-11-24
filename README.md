@@ -18,9 +18,7 @@ With this provider it will create exaclty the same kubernetes objects as the kub
 Namely : Namespace , Cluster role binding , secret and statefulset .
 
 
-### Input parameters required for provisioning 
-
-See the standard Harness helm values.yaml for futher details 
+### Input parameters required for provisioning (defined in .tfvars and mirrors the helm values.yaml file)
 
 accountId
 
