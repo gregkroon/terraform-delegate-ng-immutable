@@ -1,7 +1,8 @@
 # TerraformDelegateAutomation
 
 ### Introduction 
-MVP Terraform manifest for provisioning a helm delegate (immutable)
+
+MVP Terraform manifest for provisioning a NG helm delegate (immutable)
 Purpose is to ease and automate onboarding through configuration as code .
 
 Feel free to hack and change as you see fit !
