@@ -23,17 +23,31 @@ Namely : Namespace , Cluster role binding , secret and statefulset .
 See the standard Harness helm values.yaml for futher details 
 
 accountId
+
 delegateToken
+
 delegateName
+
 delegate_namespace
+
 delegateDockerImage
+
 managerEndpoint
+
 tags
+
 description
+
 k8sPermissionsType
+
 replicas
+
 cpu
+
 memory
+
 initScript
+
 javaOpts
+
 securityContext
